@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 from app.shared_lib.prge_shared.spatial import get_coordinates
-from app.shared_lib.prge_shared.spatial import engine
+from app.shared_lib.prge_shared.db_conn import engine
 
 router_db_insert = APIRouter()
 
