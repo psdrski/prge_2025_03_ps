@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
-@router.get("/user")
+@router.get("/users_static")
 async def get_user():
     return [{"id":123132131321, "name":"Mikołaj", "location":"Kielce", "posts": 12},
             {"id": 123132131321, "name": "Piotr", "location": "Garwolin", "posts": 32},
